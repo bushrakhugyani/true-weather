@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>True Weather</title>
-</head>    
+    <style rel="stylesheet" src="src/styles.css"></style>
+  </head>
   <body>
-    <header>
+    <div class="weather-app">
+      <header>
         <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
+            id="search-form"
             required
-            />
-          <input type="submit" value="Search"  />
+          />
+          <input type="submit" value="Search" id="submit-btn" />
         </form>
       </header>
       <main>
-      <div>
+        <div>
           <div>
             <h1>Paris</h1>
             <p>
@@ -25,11 +28,11 @@
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
-            <div>
-              ☀️24°C
-            </div>
+          <div>☀️24°C</div>
         </div>
-     </main>
+      </main>
+    </div>
+    <div>
       <footer>
         <p>
           This project was coded by
@@ -44,14 +47,11 @@
             on GitHub</a
           >
           and
-          <a
-            href="https://true-weather4u.netlify.app/"
-            target="_blank"
+          <a href="https://true-weather4u.netlify.app/" target="_blank"
             >hosted on Netlify</a
           >
         </p>
       </footer>
     </div>
   </body>
- </html>
-   
+</html>
