@@ -1,11 +1,84 @@
 body {
-  background-color: #adf8f8;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/062/original/blue_sky_with_clouds.jpg?1708390826");
 }
+
 .weather-app {
-  background: #d8f4f4;
+  background-color: rgba(255, 255, 255, 0.7);
   max-width: 600px;
   margin: 30px auto;
-  padding: 32px;
+  padding: 60px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 -15px 30px rgba(0, 0, 0, 0.4);
+}
+header {
+  border-bottom: 1px solid #bfc7f1;
+  padding: 0 0 30px 0;
+}
+.search-form-input {
+  background-color: #dbd8d8;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+#search-btn {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #3035bb;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.7);
+  line-height: 20px;
+  font-weight: 500;
+}
+.weather-app-details strong {
+  color: #f3620f;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.weather-app-temperature-value {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+footer {
+  border-top: 1px solid #bfc7f1;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+
+a {
+  color: #3035bb;
 }

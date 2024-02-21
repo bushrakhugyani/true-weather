@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>True Weather</title>
-    <link rel="stylesheet" src="src/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <div class="weather-app">
@@ -13,46 +13,48 @@
           <input
             type="search"
             placeholder="Enter a city.."
-            id="search-form-input"
+            class="search-form-input"
             required
           />
-          <input type="submit" value="Search" id="submit-btn" />
+          <input type="submit" value="Search" id="search-btn" />
         </form>
       </header>
       <main>
-        <div>
+        <div class="weather-app-data">
           <div>
-            <h1>Paris</h1>
-            <p>
+            <h1 class="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
               Monday 13:13, moderate rain <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
-          <div>☀️24°C</div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☀️</div>
+            <div class="weather-app-temperature-value">24</div>
+            <div class="weather-app-unit">°C</div>
         </div>
       </main>
-    </div>
-
-    <div>
-      <footer>
-        <p>
-          This project was coded by
-          <a href="https://github.com/bushrakhugyani" target="_blank"
-            >Bushra Khugyani</a
-          >
-          and is
-          <a
-            href="https://github.com/bushrakhugyani/true-weather"
-            target="_blank"
-          >
-            on GitHub</a
-          >
-          and
-          <a href="https://true-weather4u.netlify.app/" target="_blank"
-            >hosted on Netlify</a
-          >
-        </p>
-      </footer>
+      <div>
+        <footer>
+          <p>
+            This project was coded by
+            <a href="https://github.com/bushrakhugyani" target="_blank"
+              >Bushra Khugyani</a
+            >
+            and is
+            <a
+              href="https://github.com/bushrakhugyani/true-weather"
+              target="_blank"
+            >
+              on GitHub</a
+            >
+            and
+            <a href="https://true-weather4u.netlify.app/" target="_blank"
+              >hosted on Netlify</a
+            >
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
