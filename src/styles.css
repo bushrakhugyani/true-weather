@@ -93,13 +93,19 @@ a {
   text-align: center;
 }
 .weather-forecast-icon {
-  margin-left: 10px;
-  font-size: 25px;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-temperature {
+  margin: 0 auto;
 }
 .weather-forecast-temp-max {
   font-size: 16px;
-  opacity: 0.7;
+  padding-left: 15px;
+  opacity: 0.6;
 }
 .weather-forecast-temp-min {
-  opacity: 0.4;
+  opacity: 0.5;
 }
